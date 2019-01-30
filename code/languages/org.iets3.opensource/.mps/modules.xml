@@ -2,24 +2,20 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
-      <modulePath path="$PROJECT_DIR$/languages/ConstratintsDescriptor/org.iets3.flow.core.mpl" folder="flow" />
-      <modulePath path="$PROJECT_DIR$/languages/MatLabLoader/MatLabLoader.mpl" folder="gxw" />
-      <modulePath path="$PROJECT_DIR$/languages/PropertyLanguage/org.iets3.flow.modelproperty.mpl" folder="flow" />
-      <modulePath path="$PROJECT_DIR$/languages/SimulationOutputChecker/org.iets3.simulationOutputChecker.mpl" folder="gxw" />
-      <modulePath path="$PROJECT_DIR$/languages/StatesTruthTable/org.iets3.flow.modelproperty.state.mpl" folder="flow" />
+      <modulePath path="$USER_HOME$/git/EARS-CTRL/code/languages/org.iets3.opensource/languages/ConstratintsDescriptor/org.iets3.flow.core.mpl" folder="flow" />
+      <modulePath path="$USER_HOME$/git/EARS-CTRL/code/languages/org.iets3.opensource/languages/PropertyLanguage/org.iets3.flow.modelproperty.mpl" folder="flow" />
+      <modulePath path="$USER_HOME$/git/EARS-CTRL/code/languages/org.iets3.opensource/languages/org.iets3.core.users/org.iets3.core.users.mpl" folder="core" />
+      <modulePath path="$USER_HOME$/git/EARS-CTRL/code/languages/org.iets3.opensource/languages/org.iets3.ears.gxw/org.iets3.ears.gxw.mpl" folder="gxw" />
+      <modulePath path="$USER_HOME$/git/EARS-CTRL/code/languages/org.iets3.opensource/languages/org.iets3.utility/org.iets3.utility.mpl" folder="flow" />
+      <modulePath path="$USER_HOME$/git/EARS-CTRL/code/languages/org.iets3.opensource/solutions/FlowDescriptorSandbox/org.iets3.flow.core.instance.msd" folder="flow" />
+      <modulePath path="$USER_HOME$/git/EARS-CTRL/code/languages/org.iets3.opensource/solutions/org.iets3.ears.gxw.examples/org.iets3.ears.gxw.examples.msd" folder="gxw" />
+      <modulePath path="$USER_HOME$/git/EARS-CTRL/code/languages/org.iets3.opensource/solutions/org.iets3.structuralCoder/org.iets3.structuralCoder.msd" folder="gxw" />
       <modulePath path="$PROJECT_DIR$/languages/org.iets3.core.attributes/org.iets3.core.attributes.mpl" folder="core" />
       <modulePath path="$PROJECT_DIR$/languages/org.iets3.core.base/org.iets3.core.base.mpl" folder="core" />
       <modulePath path="$PROJECT_DIR$/languages/org.iets3.core.plugin/org.iets3.core.plugin.msd" folder="core" />
-      <modulePath path="$PROJECT_DIR$/languages/org.iets3.core.users/org.iets3.core.users.mpl" folder="core" />
       <modulePath path="$PROJECT_DIR$/languages/org.iets3.ears.gxw/org.iets3.ears.gxw.mpl" folder="gxw" />
-      <modulePath path="$PROJECT_DIR$/languages/org.iets3.flow.modelproperty.gxw/org.iets3.flow.modelproperty.gxw.mpl" folder="gxw" />
       <modulePath path="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/org.iets3.flow.modelproperty.formulae.mpl" folder="flow" />
-      <modulePath path="$PROJECT_DIR$/languages/org.iets3.lustre/org.iets3.graphicalLustre.mpl" folder="gxw" />
-      <modulePath path="$PROJECT_DIR$/languages/org.iets3.simulink.resultmodel/org.iets3.simulink.resultmodel.mpl" folder="gxw" />
-      <modulePath path="$PROJECT_DIR$/languages/org.iets3.utility/org.iets3.utility.mpl" folder="flow" />
       <modulePath path="$PROJECT_DIR$/languages/testLanguage/org.iets3.flow.dashboard.mpl" folder="flow" />
-      <modulePath path="$PROJECT_DIR$/solutions/FlowDescriptorSandbox/org.iets3.flow.core.instance.msd" folder="flow" />
-      <modulePath path="$PROJECT_DIR$/solutions/MatlabEngine.lib/MatlabEngine.lib.msd" folder="gxw" />
       <modulePath path="$PROJECT_DIR$/solutions/org.iets3.ears.gxw.examples/org.iets3.ears.gxw.examples.msd" folder="gxw" />
       <modulePath path="$PROJECT_DIR$/solutions/org.iets3.structuralCoder/org.iets3.structuralCoder.msd" folder="gxw" />
     </projectModules>

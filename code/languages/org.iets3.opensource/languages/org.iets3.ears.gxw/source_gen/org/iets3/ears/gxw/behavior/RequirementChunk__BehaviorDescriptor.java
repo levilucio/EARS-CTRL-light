@@ -13,7 +13,6 @@ import jetbrains.mps.core.aspects.behaviour.SJavaCompoundTypeImpl;
 import jetbrains.mps.core.aspects.behaviour.SModifiersImpl;
 import jetbrains.mps.core.aspects.behaviour.AccessPrivileges;
 import java.io.File;
-import org.fortiss.de.autocode4.gxw.sdf.SDFctrl;
 import java.util.List;
 import org.jetbrains.mps.openapi.model.SNode;
 import java.util.Arrays;
@@ -34,24 +33,15 @@ import org.fortiss.de.autocode4.gxw.twoqbf.TwoQBF;
 import org.fortiss.de.autocode4.gxw.engine.UnknownVariableAssignment;
 import javax.swing.JOptionPane;
 import org.fortiss.de.autocode4.gxw.codegen.LustreCodeGenerator;
-import java.util.HashMap;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import org.fortiss.de.autocode4.gxw.sdf.Actor;
-import org.fortiss.de.autocode4.gxw.sdf.EventActor;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import org.fortiss.de.autocode4.gxw.sdf.LogicGateActor;
-import jetbrains.mps.internal.collections.runtime.IVisitor;
-import org.fortiss.de.autocode4.gxw.sdf.HighLevelCtrlActor;
-import org.fortiss.de.autocode4.gxw.sdf.ResActor;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import org.fortiss.de.autocode4.gxw.sdf.Wire;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import java.util.Map;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.LinkedHashMap;
+import java.util.HashMap;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.internal.collections.runtime.IMapping;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
@@ -62,14 +52,13 @@ public final class RequirementChunk__BehaviorDescriptor extends BaseBHDescriptor
 
   public static final SMethod<Void> writeToFile_id3ghj88fUYVW = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("writeToFile").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("3ghj88fUYVW").registry(REGISTRY).build(SMethodBuilder.createJavaParameter(String.class, ""), SMethodBuilder.createJavaParameter(String.class, ""));
   public static final SMethod<String> systhesizeSolverOutput_id3ghj88fVJYt = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("systhesizeSolverOutput").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("3ghj88fVJYt").registry(REGISTRY).build(SMethodBuilder.createJavaParameter(File.class, ""));
-  public static final SMethod<Void> generateModelForMPS_id1TTP9gdhydO = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("generateModelForMPS").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("1TTP9gdhydO").registry(REGISTRY).build(SMethodBuilder.createJavaParameter(SDFctrl.class, ""));
   public static final SMethod<Void> ConvertReqToFormulae_id4MKUcPlT3vX = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("ConvertReqToFormulae").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("4MKUcPlT3vX").registry(REGISTRY).build(SMethodBuilder.createJavaParameter(String.class, ""));
   public static final SMethod<String> GetSolverOutputString_id4MKUcPmjdeS = new SMethodBuilder<String>(new SJavaCompoundTypeImpl(String.class)).name("GetSolverOutputString").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("4MKUcPmjdeS").registry(REGISTRY).build(SMethodBuilder.createJavaParameter(File.class, ""));
   public static final SMethod<List<SNode>> getTriggersFromReqsWithResponse_id5bowr9XmAJs = new SMethodBuilder<List<SNode>>(new SJavaCompoundTypeImpl((Class<List<SNode>>) ((Class) Object.class))).name("getTriggersFromReqsWithResponse").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("5bowr9XmAJs").registry(REGISTRY).build(SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""), SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""));
   public static final SMethod<List<SNode>> getComponentsInResponseFormula_id5bowr9Y85Q$ = new SMethodBuilder<List<SNode>>(new SJavaCompoundTypeImpl((Class<List<SNode>>) ((Class) Object.class))).name("getComponentsInResponseFormula").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("5bowr9Y85Q$").registry(REGISTRY).build(SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""));
   public static final SMethod<List<SNode>> getComponentNames_id5bowr9Ycu3H = new SMethodBuilder<List<SNode>>(new SJavaCompoundTypeImpl((Class<List<SNode>>) ((Class) Object.class))).name("getComponentNames").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("5bowr9Ycu3H").registry(REGISTRY).build(SMethodBuilder.createJavaParameter((Class<List<SNode>>) ((Class) Object.class), ""));
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(writeToFile_id3ghj88fUYVW, systhesizeSolverOutput_id3ghj88fVJYt, generateModelForMPS_id1TTP9gdhydO, ConvertReqToFormulae_id4MKUcPlT3vX, GetSolverOutputString_id4MKUcPmjdeS, getTriggersFromReqsWithResponse_id5bowr9XmAJs, getComponentsInResponseFormula_id5bowr9Y85Q$, getComponentNames_id5bowr9Ycu3H);
+  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(writeToFile_id3ghj88fUYVW, systhesizeSolverOutput_id3ghj88fVJYt, ConvertReqToFormulae_id4MKUcPlT3vX, GetSolverOutputString_id4MKUcPmjdeS, getTriggersFromReqsWithResponse_id5bowr9XmAJs, getComponentsInResponseFormula_id5bowr9Y85Q$, getComponentNames_id5bowr9Ycu3H);
 
   private static void ___init___(@NotNull SNode __thisNode__) {
 
@@ -227,7 +216,6 @@ public final class RequirementChunk__BehaviorDescriptor extends BaseBHDescriptor
       if (LOG.isInfoEnabled()) {
         LOG.info("now sending the sdf to generate model");
       }
-      RequirementChunk__BehaviorDescriptor.generateModelForMPS_id1TTP9gdhydO.invoke(__thisNode__, builder.ctrlBuilder.sdfCtrl);
       return " ";
 
 
@@ -238,352 +226,6 @@ public final class RequirementChunk__BehaviorDescriptor extends BaseBHDescriptor
 
       return "sorry it does not work ";
     }
-
-  }
-  /*package*/ static void generateModelForMPS_id1TTP9gdhydO(@NotNull SNode __thisNode__, SDFctrl controller) {
-
-    // Initialize  and arraylist with bool values for all types of actors 
-    HashMap<String, Boolean> typeMemorizer = new HashMap<String, Boolean>();
-
-    typeMemorizer.put("And", false);
-    typeMemorizer.put("TernaryNot", false);
-    typeMemorizer.put("Or", false);
-    typeMemorizer.put("IfTB", false);
-    typeMemorizer.put("TrUB", false);
-    typeMemorizer.put("Iff", false);
-
-    // now generating parameters for the new language 
-    final SNode modelHolder = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x1e79d4940d4268d4L, "org.iets3.graphicalLustre.structure.ModelHolder"));
-    SPropertyOperations.set(modelHolder, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), "Controller Holder");
-
-    SNode gateDescriptors = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5f4fbd258ee84d1eL, "org.iets3.graphicalLustre.structure.GateDescriptors"));
-    SPropertyOperations.set(gateDescriptors, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), "Gate Descriptors");
-
-    for (final Actor actor : controller.getActors()) {
-
-      if (actor instanceof EventActor) {
-
-        if (((EventActor) actor).getStructure() == EventActor.EventType.Complex) {
-
-          SNode genericEventActor = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x7459d2b66d70ddfcL, "org.iets3.graphicalLustre.structure.GenericEventActor"));
-          SPropertyOperations.set(genericEventActor, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), actor.getName());
-
-          ListSequence.fromList(SLinkOperations.getChildren(modelHolder, MetaAdapterFactory.getContainmentLink(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x1e79d4940d4268d4L, 0x1e79d4940d4268d7L, "listOfActors"))).addElement(genericEventActor);
-
-          SNode gateDefinition = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5f4fbd258ee84d21L, "org.iets3.graphicalLustre.structure.GateDefinition"));
-          SPropertyOperations.set(gateDefinition, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), actor.getName());
-          try {
-            SPropertyOperations.set(gateDefinition, MetaAdapterFactory.getProperty(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5f4fbd258ee84d21L, 0x5f4fbd258ee84d22L, "definition"), LustreCodeGenerator.produceGenericEventActorCodeForMPS(((EventActor) actor)));
-
-          } catch (Exception ex) {
-            System.out.println("exception at .. event actor complex");
-          }
-
-          // link with the pointer 
-
-          SLinkOperations.setTarget(genericEventActor, MetaAdapterFactory.getReferenceLink(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5ab29dafef45c45cL, 0x87370915ed531d6L, "gateDefinition"), gateDefinition);
-          SLinkOperations.getChildren(gateDescriptors, MetaAdapterFactory.getContainmentLink(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5f4fbd258ee84d1eL, 0x5f4fbd258ee84d1fL, "gateDefinitions")).add(gateDefinition);
-
-
-        }
-
-      } else if (actor instanceof LogicGateActor) {
-
-        System.out.println("The  gate is " + actor.getName() + ((LogicGateActor) actor).getgType());
-
-        if (((LogicGateActor) actor).getgType() == LogicGateActor.GateType.And) {
-          ListSequence.fromList(SLinkOperations.getChildren(modelHolder, MetaAdapterFactory.getContainmentLink(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x1e79d4940d4268d4L, 0x1e79d4940d4268d7L, "listOfActors"))).visitAll(new IVisitor<SNode>() {
-            public void visit(SNode it) {
-              if (SPropertyOperations.getString(it, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")).equals(actor.getName())) {
-                ListSequence.fromList(SLinkOperations.getChildren(modelHolder, MetaAdapterFactory.getContainmentLink(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x1e79d4940d4268d4L, 0x1e79d4940d4268d7L, "listOfActors"))).removeElement(it);
-              }
-            }
-          });
-          System.out.println("createing event actor of name " + actor.getName());
-          System.out.println("The and gate is " + actor.getName());
-          SNode eventGateActor = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x7459d2b66d70de33L, "org.iets3.graphicalLustre.structure.EventActor"));
-
-          SPropertyOperations.set(eventGateActor, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), actor.getName());
-
-          ListSequence.fromList(SLinkOperations.getChildren(modelHolder, MetaAdapterFactory.getContainmentLink(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x1e79d4940d4268d4L, 0x1e79d4940d4268d7L, "listOfActors"))).addElement(eventGateActor);
-
-          SNode gateDefinition = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5f4fbd258ee84d21L, "org.iets3.graphicalLustre.structure.GateDefinition"));
-          SPropertyOperations.set(gateDefinition, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), actor.getName());
-          try {
-            SPropertyOperations.set(gateDefinition, MetaAdapterFactory.getProperty(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5f4fbd258ee84d21L, 0x5f4fbd258ee84d22L, "definition"), LustreCodeGenerator.produceAndForMPS());
-
-          } catch (Exception ex) {
-            System.out.println("exception at .. actor and");
-          }
-          SLinkOperations.setTarget(eventGateActor, MetaAdapterFactory.getReferenceLink(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5ab29dafef45c45cL, 0x87370915ed531d6L, "gateDefinition"), gateDefinition);
-
-          SLinkOperations.getChildren(gateDescriptors, MetaAdapterFactory.getContainmentLink(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5f4fbd258ee84d1eL, 0x5f4fbd258ee84d1fL, "gateDefinitions")).add(gateDefinition);
-
-        } else if (((LogicGateActor) actor).getgType() == LogicGateActor.GateType.TernaryNot) {
-          SNode ternarynot = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5ab29dafef4a0717L, "org.iets3.graphicalLustre.structure.TernaryNotActor"));
-          SPropertyOperations.set(ternarynot, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), actor.getName());
-
-          ListSequence.fromList(SLinkOperations.getChildren(modelHolder, MetaAdapterFactory.getContainmentLink(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x1e79d4940d4268d4L, 0x1e79d4940d4268d7L, "listOfActors"))).addElement(ternarynot);
-
-          SNode gateDefinition = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5f4fbd258ee84d21L, "org.iets3.graphicalLustre.structure.GateDefinition"));
-          SPropertyOperations.set(gateDefinition, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), actor.getName());
-          try {
-            SPropertyOperations.set(gateDefinition, MetaAdapterFactory.getProperty(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5f4fbd258ee84d21L, 0x5f4fbd258ee84d22L, "definition"), LustreCodeGenerator.produceTernaryNotForMPS());
-
-          } catch (Exception ex) {
-            System.out.println("exception at .. actor ternary not");
-          }
-          SLinkOperations.setTarget(ternarynot, MetaAdapterFactory.getReferenceLink(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5ab29dafef45c45cL, 0x87370915ed531d6L, "gateDefinition"), gateDefinition);
-
-          SLinkOperations.getChildren(gateDescriptors, MetaAdapterFactory.getContainmentLink(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5f4fbd258ee84d1eL, 0x5f4fbd258ee84d1fL, "gateDefinitions")).add(gateDefinition);
-
-
-        } else if (((LogicGateActor) actor).getgType() == LogicGateActor.GateType.Or) {
-          if (actor.getName().contains("release")) {
-
-            SNode releaseGateActor = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x7a01286a4f8682cfL, "org.iets3.graphicalLustre.structure.ReleaseActor"));
-            SPropertyOperations.set(releaseGateActor, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), actor.getName());
-
-            ListSequence.fromList(SLinkOperations.getChildren(modelHolder, MetaAdapterFactory.getContainmentLink(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x1e79d4940d4268d4L, 0x1e79d4940d4268d7L, "listOfActors"))).addElement(releaseGateActor);
-
-            SNode gateDefinition = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5f4fbd258ee84d21L, "org.iets3.graphicalLustre.structure.GateDefinition"));
-            SPropertyOperations.set(gateDefinition, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), actor.getName());
-            try {
-              SPropertyOperations.set(gateDefinition, MetaAdapterFactory.getProperty(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5f4fbd258ee84d21L, 0x5f4fbd258ee84d22L, "definition"), LustreCodeGenerator.produceOrForMPS());
-
-            } catch (Exception ex) {
-              System.out.println("exception at .. actor or");
-            }
-            SLinkOperations.setTarget(releaseGateActor, MetaAdapterFactory.getReferenceLink(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5ab29dafef45c45cL, 0x87370915ed531d6L, "gateDefinition"), gateDefinition);
-
-            SLinkOperations.getChildren(gateDescriptors, MetaAdapterFactory.getContainmentLink(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5f4fbd258ee84d1eL, 0x5f4fbd258ee84d1fL, "gateDefinitions")).add(gateDefinition);
-
-          } else {
-
-            SNode orGateActor = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x17ee0fce5b59ab5cL, "org.iets3.graphicalLustre.structure.OrActor"));
-            SPropertyOperations.set(orGateActor, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), actor.getName());
-
-            ListSequence.fromList(SLinkOperations.getChildren(modelHolder, MetaAdapterFactory.getContainmentLink(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x1e79d4940d4268d4L, 0x1e79d4940d4268d7L, "listOfActors"))).addElement(orGateActor);
-
-            SNode gateDefinition = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5f4fbd258ee84d21L, "org.iets3.graphicalLustre.structure.GateDefinition"));
-            SPropertyOperations.set(gateDefinition, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), actor.getName());
-            try {
-              SPropertyOperations.set(gateDefinition, MetaAdapterFactory.getProperty(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5f4fbd258ee84d21L, 0x5f4fbd258ee84d22L, "definition"), LustreCodeGenerator.produceOrForMPS());
-
-            } catch (Exception ex) {
-              System.out.println("exception at .. actor or");
-            }
-            SLinkOperations.setTarget(orGateActor, MetaAdapterFactory.getReferenceLink(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5ab29dafef45c45cL, 0x87370915ed531d6L, "gateDefinition"), gateDefinition);
-
-            SLinkOperations.getChildren(gateDescriptors, MetaAdapterFactory.getContainmentLink(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5f4fbd258ee84d1eL, 0x5f4fbd258ee84d1fL, "gateDefinitions")).add(gateDefinition);
-          }
-        } else if (((LogicGateActor) actor).getgType() == LogicGateActor.GateType.Not) {
-          SNode notGateActor = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x4b2c7d05d5d7e5e4L, "org.iets3.graphicalLustre.structure.NotActor"));
-          SPropertyOperations.set(notGateActor, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), actor.getName());
-
-          ListSequence.fromList(SLinkOperations.getChildren(modelHolder, MetaAdapterFactory.getContainmentLink(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x1e79d4940d4268d4L, 0x1e79d4940d4268d7L, "listOfActors"))).addElement(notGateActor);
-
-        } else {
-          if (LOG.isInfoEnabled()) {
-            LOG.info("Nothing found!");
-          }
-        }
-
-      } else if (actor instanceof HighLevelCtrlActor) {
-        if (((HighLevelCtrlActor) actor).getcType() == HighLevelCtrlActor.CtrlType.IfTB) {
-          SNode ifTBActor = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5ab29dafef496610L, "org.iets3.graphicalLustre.structure.IfTBActor"));
-          SPropertyOperations.set(ifTBActor, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), actor.getName());
-          ListSequence.fromList(SLinkOperations.getChildren(modelHolder, MetaAdapterFactory.getContainmentLink(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x1e79d4940d4268d4L, 0x1e79d4940d4268d7L, "listOfActors"))).addElement(ifTBActor);
-
-          // adding in model descriptor file 
-          SNode gateDefinition = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5f4fbd258ee84d21L, "org.iets3.graphicalLustre.structure.GateDefinition"));
-          SPropertyOperations.set(gateDefinition, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), actor.getName());
-          try {
-            SPropertyOperations.set(gateDefinition, MetaAdapterFactory.getProperty(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5f4fbd258ee84d21L, 0x5f4fbd258ee84d22L, "definition"), LustreCodeGenerator.produceIfTBForMPS());
-
-          } catch (Exception ex) {
-            System.out.println("exception at .. event actor complex");
-          }
-          SLinkOperations.setTarget(ifTBActor, MetaAdapterFactory.getReferenceLink(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5ab29dafef45c45cL, 0x87370915ed531d6L, "gateDefinition"), gateDefinition);
-
-          SLinkOperations.getChildren(gateDescriptors, MetaAdapterFactory.getContainmentLink(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5f4fbd258ee84d1eL, 0x5f4fbd258ee84d1fL, "gateDefinitions")).add(gateDefinition);
-
-
-        } else if (((HighLevelCtrlActor) actor).getcType() == HighLevelCtrlActor.CtrlType.TrUB) {
-          SNode TrUBActor = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5ab29dafef4a0766L, "org.iets3.graphicalLustre.structure.TrUBActor"));
-          SPropertyOperations.set(TrUBActor, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), actor.getName());
-          ListSequence.fromList(SLinkOperations.getChildren(modelHolder, MetaAdapterFactory.getContainmentLink(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x1e79d4940d4268d4L, 0x1e79d4940d4268d7L, "listOfActors"))).addElement(TrUBActor);
-
-
-          SNode gateDefinition = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5f4fbd258ee84d21L, "org.iets3.graphicalLustre.structure.GateDefinition"));
-          SPropertyOperations.set(gateDefinition, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), actor.getName());
-          try {
-            SPropertyOperations.set(gateDefinition, MetaAdapterFactory.getProperty(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5f4fbd258ee84d21L, 0x5f4fbd258ee84d22L, "definition"), LustreCodeGenerator.produceTrUBForMPS());
-
-          } catch (Exception ex) {
-            System.out.println("exception at .. event actor complex");
-          }
-          SLinkOperations.setTarget(TrUBActor, MetaAdapterFactory.getReferenceLink(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5ab29dafef45c45cL, 0x87370915ed531d6L, "gateDefinition"), gateDefinition);
-
-          SLinkOperations.getChildren(gateDescriptors, MetaAdapterFactory.getContainmentLink(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5f4fbd258ee84d1eL, 0x5f4fbd258ee84d1fL, "gateDefinitions")).add(gateDefinition);
-
-
-
-        } else if (((HighLevelCtrlActor) actor).getcType() == HighLevelCtrlActor.CtrlType.Iff) {
-
-          SNode iffActor = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x17ee0fce5b59ab5dL, "org.iets3.graphicalLustre.structure.IffActor"));
-          SPropertyOperations.set(iffActor, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), actor.getName());
-          ListSequence.fromList(SLinkOperations.getChildren(modelHolder, MetaAdapterFactory.getContainmentLink(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x1e79d4940d4268d4L, 0x1e79d4940d4268d7L, "listOfActors"))).addElement(iffActor);
-
-          SNode gateDefinition = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5f4fbd258ee84d21L, "org.iets3.graphicalLustre.structure.GateDefinition"));
-          SPropertyOperations.set(gateDefinition, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), actor.getName());
-          try {
-            SPropertyOperations.set(gateDefinition, MetaAdapterFactory.getProperty(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5f4fbd258ee84d21L, 0x5f4fbd258ee84d22L, "definition"), LustreCodeGenerator.produceIffForMPS());
-
-          } catch (Exception ex) {
-            System.out.println("exception at .. event actor complex");
-          }
-          SLinkOperations.setTarget(iffActor, MetaAdapterFactory.getReferenceLink(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5ab29dafef45c45cL, 0x87370915ed531d6L, "gateDefinition"), gateDefinition);
-
-          SLinkOperations.getChildren(gateDescriptors, MetaAdapterFactory.getContainmentLink(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5f4fbd258ee84d1eL, 0x5f4fbd258ee84d1fL, "gateDefinitions")).add(gateDefinition);
-
-        } else {
-          if (LOG.isInfoEnabled()) {
-            LOG.info("The actor type is not defined yet");
-          }
-        }
-      } else if (actor instanceof ResActor) {
-        SNode resActor = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5ab29dafef45c45dL, "org.iets3.graphicalLustre.structure.ResActor"));
-        SPropertyOperations.set(resActor, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), actor.getName());
-        ListSequence.fromList(SLinkOperations.getChildren(modelHolder, MetaAdapterFactory.getContainmentLink(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x1e79d4940d4268d4L, 0x1e79d4940d4268d7L, "listOfActors"))).addElement(resActor);
-
-        SNode gateDefinition = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5f4fbd258ee84d21L, "org.iets3.graphicalLustre.structure.GateDefinition"));
-        SPropertyOperations.set(gateDefinition, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), actor.getName());
-        try {
-          SPropertyOperations.set(gateDefinition, MetaAdapterFactory.getProperty(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5f4fbd258ee84d21L, 0x5f4fbd258ee84d22L, "definition"), LustreCodeGenerator.produceResForMPS(((ResActor) actor).getNumberOfInputPorts()));
-          System.out.println("the value of size is " + ((ResActor) actor).getNumberOfInputPorts());
-
-        } catch (Exception ex) {
-          System.out.println("exception at .. event actor res");
-        }
-        SLinkOperations.setTarget(resActor, MetaAdapterFactory.getReferenceLink(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5ab29dafef45c45cL, 0x87370915ed531d6L, "gateDefinition"), gateDefinition);
-        SLinkOperations.getChildren(gateDescriptors, MetaAdapterFactory.getContainmentLink(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5f4fbd258ee84d1eL, 0x5f4fbd258ee84d1fL, "gateDefinitions")).add(gateDefinition);
-
-
-
-      } else {
-        if (LOG.isInfoEnabled()) {
-          LOG.info("the actor type is not at all defined yet");
-        }
-      }
-
-    }
-
-
-    if (LOG.isInfoEnabled()) {
-      LOG.info("the input ports are +" + controller.getGlobalInputPorts().size());
-    }
-    // setting the global input and putput ports as actors 
-    for (String inputPortName : controller.getGlobalInputPorts()) {
-      SNode GlobalInput = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5e94280dffc5689cL, "org.iets3.graphicalLustre.structure.GlobalInputActor"));
-      SPropertyOperations.set(GlobalInput, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), "GI" + inputPortName);
-      ListSequence.fromList(SLinkOperations.getChildren(modelHolder, MetaAdapterFactory.getContainmentLink(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x1e79d4940d4268d4L, 0x1e79d4940d4268d7L, "listOfActors"))).addElement(GlobalInput);
-
-    }
-
-    for (String globalOutput : controller.getGlobalOutputPorts()) {
-
-      SNode GlobalOutput = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5e94280dffc5689dL, "org.iets3.graphicalLustre.structure.GlobalOutputActor"));
-      SPropertyOperations.set(GlobalOutput, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name"), globalOutput);
-      ListSequence.fromList(SLinkOperations.getChildren(modelHolder, MetaAdapterFactory.getContainmentLink(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x1e79d4940d4268d4L, 0x1e79d4940d4268d7L, "listOfActors"))).addElement(GlobalOutput);
-    }
-
-    for (SNode logical : ListSequence.fromList(SLinkOperations.getChildren(modelHolder, MetaAdapterFactory.getContainmentLink(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x1e79d4940d4268d4L, 0x1e79d4940d4268d7L, "listOfActors")))) {
-      if (SNodeOperations.isInstanceOf(logical, MetaAdapterFactory.getConcept(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x7459d2b66d70de33L, "org.iets3.graphicalLustre.structure.EventActor"))) {
-        int wirecount = 0;
-        for (Wire wire : ListSequence.fromList(controller.getWires())) {
-          if (wire.getDestPort().contains(SPropertyOperations.getString(logical, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")))) {
-            wirecount++;
-          }
-        }
-        SPropertyOperations.set(SNodeOperations.cast(logical, MetaAdapterFactory.getConcept(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x7459d2b66d70de33L, "org.iets3.graphicalLustre.structure.EventActor")), MetaAdapterFactory.getProperty(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x7459d2b66d70de33L, 0x4b2c7d05d5d7558aL, "inptPort"), "" + (wirecount));
-
-      }
-
-      if (SNodeOperations.isInstanceOf(logical, MetaAdapterFactory.getConcept(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x7a01286a4f8682cfL, "org.iets3.graphicalLustre.structure.ReleaseActor"))) {
-        int wirecount = 0;
-        for (Wire wire : ListSequence.fromList(controller.getWires())) {
-          if (wire.getDestPort().contains(SPropertyOperations.getString(logical, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")))) {
-            wirecount++;
-          }
-        }
-        SPropertyOperations.set(SNodeOperations.cast(logical, MetaAdapterFactory.getConcept(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x7a01286a4f8682cfL, "org.iets3.graphicalLustre.structure.ReleaseActor")), MetaAdapterFactory.getProperty(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x7a01286a4f8682cfL, 0x4b2c7d05d5e8b001L, "inputPort"), "" + (wirecount));
-      }
-
-    }
-
-    // instantiating wires 
-    for (Wire wire : controller.getWires()) {
-      SNode wireNode = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5ab29dafef4a0767L, "org.iets3.graphicalLustre.structure.Wire"));
-
-      for (SNode actor : ListSequence.fromList(SLinkOperations.getChildren(modelHolder, MetaAdapterFactory.getContainmentLink(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x1e79d4940d4268d4L, 0x1e79d4940d4268d7L, "listOfActors")))) {
-
-        if (SNodeOperations.isInstanceOf(actor, MetaAdapterFactory.getConcept(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5e94280dffc0f136L, "org.iets3.graphicalLustre.structure.GlobalActor"))) {
-
-
-          if (wire.getSourcePort().contains(SPropertyOperations.getString(actor, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")))) {
-            if (isEmptyString(SPropertyOperations.getString(wireNode, MetaAdapterFactory.getProperty(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5ab29dafef4a0767L, 0x13859febca01872bL, "sourcePort")))) {
-              SPropertyOperations.set(wireNode, MetaAdapterFactory.getProperty(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5ab29dafef4a0767L, 0x13859febca01872bL, "sourcePort"), wire.getSourcePort());
-              SLinkOperations.setTarget(wireNode, MetaAdapterFactory.getReferenceLink(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5ab29dafef4a0767L, 0x1e79d4940d54ec5bL, "sourceActor"), actor);
-
-            }
-          }
-
-          if (wire.getDestPort().contains(SPropertyOperations.getString(actor, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")))) {
-            if (isEmptyString(SPropertyOperations.getString(wireNode, MetaAdapterFactory.getProperty(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5ab29dafef4a0767L, 0x13859febca01872eL, "destinationPort")))) {
-              SPropertyOperations.set(wireNode, MetaAdapterFactory.getProperty(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5ab29dafef4a0767L, 0x13859febca01872eL, "destinationPort"), wire.getDestPort());
-              SLinkOperations.setTarget(wireNode, MetaAdapterFactory.getReferenceLink(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5ab29dafef4a0767L, 0x1e79d4940d54ec64L, "destinationActor"), actor);
-
-            }
-
-          }
-
-        } else {
-
-          if (wire.getSourcePort().equals("LogicalNot_" + SPropertyOperations.getString(actor, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")))) {
-            if (isEmptyString(SPropertyOperations.getString(wireNode, MetaAdapterFactory.getProperty(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5ab29dafef4a0767L, 0x13859febca01872bL, "sourcePort")))) {
-              SPropertyOperations.set(wireNode, MetaAdapterFactory.getProperty(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5ab29dafef4a0767L, 0x13859febca01872bL, "sourcePort"), wire.getSourcePort());
-              SLinkOperations.setTarget(wireNode, MetaAdapterFactory.getReferenceLink(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5ab29dafef4a0767L, 0x1e79d4940d54ec5bL, "sourceActor"), actor);
-            }
-
-          }
-          if (wire.getSourcePort().contains(SPropertyOperations.getString(actor, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")) + ".")) {
-            if (isEmptyString(SPropertyOperations.getString(wireNode, MetaAdapterFactory.getProperty(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5ab29dafef4a0767L, 0x13859febca01872bL, "sourcePort")))) {
-              SPropertyOperations.set(wireNode, MetaAdapterFactory.getProperty(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5ab29dafef4a0767L, 0x13859febca01872bL, "sourcePort"), wire.getSourcePort());
-              SLinkOperations.setTarget(wireNode, MetaAdapterFactory.getReferenceLink(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5ab29dafef4a0767L, 0x1e79d4940d54ec5bL, "sourceActor"), actor);
-
-            }
-          }
-
-          if (wire.getDestPort().contains(SPropertyOperations.getString(actor, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")) + ".")) {
-            if (isEmptyString(SPropertyOperations.getString(wireNode, MetaAdapterFactory.getProperty(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5ab29dafef4a0767L, 0x13859febca01872eL, "destinationPort")))) {
-              SPropertyOperations.set(wireNode, MetaAdapterFactory.getProperty(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5ab29dafef4a0767L, 0x13859febca01872eL, "destinationPort"), wire.getDestPort());
-              SLinkOperations.setTarget(wireNode, MetaAdapterFactory.getReferenceLink(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x5ab29dafef4a0767L, 0x1e79d4940d54ec64L, "destinationActor"), actor);
-
-            }
-
-          }
-
-        }
-      }
-
-      ListSequence.fromList(SLinkOperations.getChildren(modelHolder, MetaAdapterFactory.getContainmentLink(0x33eb1b5bad964262L, 0x9112684c487e01e0L, 0x1e79d4940d4268d4L, 0x1e79d4940d538b7bL, "listofWires"))).addElement(wireNode);
-    }
-
-
-    // now adding model holder to the model 
-    SModelOperations.addRootNode(SNodeOperations.getModel(__thisNode__), modelHolder);
-    SModelOperations.addRootNode(SNodeOperations.getModel(__thisNode__), gateDescriptors);
 
   }
   /*package*/ static void ConvertReqToFormulae_id4MKUcPlT3vX(@NotNull SNode __thisNode__, String fileName) {
@@ -613,7 +255,6 @@ public final class RequirementChunk__BehaviorDescriptor extends BaseBHDescriptor
       }
 
       int count = 0;
-
 
 
       bufferedWriter.write("INPUT ");
@@ -842,18 +483,15 @@ public final class RequirementChunk__BehaviorDescriptor extends BaseBHDescriptor
       case 1:
         return (T) ((String) systhesizeSolverOutput_id3ghj88fVJYt(node, (File) parameters[0]));
       case 2:
-        generateModelForMPS_id1TTP9gdhydO(node, (SDFctrl) parameters[0]);
-        return null;
-      case 3:
         ConvertReqToFormulae_id4MKUcPlT3vX(node, (String) parameters[0]);
         return null;
-      case 4:
+      case 3:
         return (T) ((String) GetSolverOutputString_id4MKUcPmjdeS(node, (File) parameters[0]));
-      case 5:
+      case 4:
         return (T) ((List<SNode>) getTriggersFromReqsWithResponse_id5bowr9XmAJs(node, (SNode) parameters[0], (SNode) parameters[1]));
-      case 6:
+      case 5:
         return (T) ((List<SNode>) getComponentsInResponseFormula_id5bowr9Y85Q$(node, (SNode) parameters[0]));
-      case 7:
+      case 6:
         return (T) ((List<SNode>) getComponentNames_id5bowr9Ycu3H(node, (List<SNode>) parameters[0]));
       default:
         throw new BHMethodNotFoundException(this, method);
@@ -882,8 +520,5 @@ public final class RequirementChunk__BehaviorDescriptor extends BaseBHDescriptor
   @Override
   public SAbstractConcept getConcept() {
     return CONCEPT;
-  }
-  private static boolean isEmptyString(String str) {
-    return str == null || str.length() == 0;
   }
 }

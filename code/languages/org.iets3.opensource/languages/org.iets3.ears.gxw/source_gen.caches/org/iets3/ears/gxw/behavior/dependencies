@@ -196,7 +196,6 @@
     <classNode dependClassName="java.io.IOException" />
     <classNode dependClassName="java.io.PrintStream" />
     <classNode dependClassName="java.io.PrintWriter" />
-    <classNode dependClassName="java.lang.Boolean" />
     <classNode dependClassName="java.lang.Class" />
     <classNode dependClassName="java.lang.Exception" />
     <classNode dependClassName="java.lang.Integer" />
@@ -221,12 +220,9 @@
     <classNode dependClassName="jetbrains.mps.core.aspects.behaviour.api.SConstructor" />
     <classNode dependClassName="jetbrains.mps.core.aspects.behaviour.api.SMethod" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IMapping" />
-    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IVisitor" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
-    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
-    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
     <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
@@ -237,13 +233,6 @@
     <classNode dependClassName="org.fortiss.de.autocode4.gxw.codegen.LustreCodeGenerator" />
     <classNode dependClassName="org.fortiss.de.autocode4.gxw.engine.ConstraintBuilder" />
     <classNode dependClassName="org.fortiss.de.autocode4.gxw.engine.UnknownVariableAssignment" />
-    <classNode dependClassName="org.fortiss.de.autocode4.gxw.sdf.Actor" />
-    <classNode dependClassName="org.fortiss.de.autocode4.gxw.sdf.EventActor" />
-    <classNode dependClassName="org.fortiss.de.autocode4.gxw.sdf.HighLevelCtrlActor" />
-    <classNode dependClassName="org.fortiss.de.autocode4.gxw.sdf.LogicGateActor" />
-    <classNode dependClassName="org.fortiss.de.autocode4.gxw.sdf.ResActor" />
-    <classNode dependClassName="org.fortiss.de.autocode4.gxw.sdf.SDFctrl" />
-    <classNode dependClassName="org.fortiss.de.autocode4.gxw.sdf.Wire" />
     <classNode dependClassName="org.fortiss.de.autocode4.gxw.spec.GXWspec" />
     <classNode dependClassName="org.fortiss.de.autocode4.gxw.twoqbf.TwoQBF" />
     <classNode dependClassName="org.jetbrains.annotations.NotNull" />
