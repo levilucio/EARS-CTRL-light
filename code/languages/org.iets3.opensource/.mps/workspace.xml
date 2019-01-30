@@ -7,565 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="156f31b0-c127-4c73-9c72-543a8dd49090" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/Language.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/behavior/AttributeValue_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/behavior/AttributeValue__BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/behavior/BehaviorAspectDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/behavior/IAttribute_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/behavior/IAttribute__BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/behavior/IAttributed_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/behavior/IAttributed__BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/behavior/IComputedValueAttribute_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/behavior/IComputedValueAttribute__BehaviorDescriptor$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/behavior/IComputedValueAttribute__BehaviorDescriptor$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/behavior/IComputedValueAttribute__BehaviorDescriptor$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/behavior/IComputedValueAttribute__BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/behavior/IValueAttribute_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/behavior/IValueAttribute__BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/behavior/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/constraints/ConstraintsAspectDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/constraints/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/editor/EditorAspectDescriptorImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/editor/IComputedValueAttribute_Editor$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/editor/IComputedValueAttribute_Editor$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/editor/IComputedValueAttribute_Editor$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/editor/IComputedValueAttribute_Editor$QueryListHandler_422lk5_b3a$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/editor/IComputedValueAttribute_Editor$QueryListHandler_422lk5_b3a$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/editor/IComputedValueAttribute_Editor$QueryListHandler_422lk5_b3a.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/editor/IComputedValueAttribute_Editor$QueryListHandler_422lk5_d3a$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/editor/IComputedValueAttribute_Editor$QueryListHandler_422lk5_d3a.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/editor/IComputedValueAttribute_Editor$_Inline_422lk5_a3d0$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/editor/IComputedValueAttribute_Editor$_Inline_422lk5_a3d0$valueSingleRoleHandler_422lk5_c0a3d0.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/editor/IComputedValueAttribute_Editor$_Inline_422lk5_a3d0.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/editor/IComputedValueAttribute_Editor$valueSingleRoleHandler_422lk5_c0.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/editor/IComputedValueAttribute_Editor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/editor/IValueAttribute_Editor$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/editor/IValueAttribute_Editor$valueSingleRoleHandler_erhi98_c0.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/editor/IValueAttribute_Editor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/editor/attributes$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/editor/attributes$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/editor/attributes$attributesListHandler_3cr73f_c0.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/editor/attributes.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/editor/summary$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/editor/summary$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/editor/summary$QueryListHandler_k5k6oj_b0a$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/editor/summary$QueryListHandler_k5k6oj_b0a$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/editor/summary$QueryListHandler_k5k6oj_b0a.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/editor/summary$_Inline_k5k6oj_a1a0$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/editor/summary$_Inline_k5k6oj_a1a0$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/editor/summary$_Inline_k5k6oj_a1a0$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/editor/summary$_Inline_k5k6oj_a1a0$QueryListHandler_k5k6oj_a0a1a0$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/editor/summary$_Inline_k5k6oj_a1a0$QueryListHandler_k5k6oj_a0a1a0$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/editor/summary$_Inline_k5k6oj_a1a0$QueryListHandler_k5k6oj_a0a1a0.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/editor/summary$_Inline_k5k6oj_a1a0.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/editor/summary.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/editor/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/structure/ConceptPresentationAspectImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/structure/StructureAspectDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/structure/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/typesystem/TypesystemDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/typesystem/check_IComputedValueAttribute_NonTypesystemRule.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/classes_gen/org/iets3/core/attributes/typesystem/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/generator/classes_gen/org/iets3/core/attributes/generator/template/main/QueriesGenerated.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/generator/classes_gen/org/iets3/core/attributes/generator/template/main/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/generator/source_gen.caches/org/iets3/core/attributes/generator/template/main/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/generator/source_gen.caches/org/iets3/core/attributes/generator/template/main/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/generator/source_gen/org/iets3/core/attributes/generator/template/main/QueriesGenerated.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/generator/source_gen/org/iets3/core/attributes/generator/template/main/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/generator/template/main@generator.mps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/models/behavior.mps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/models/constraints.mps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/models/editor.mps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/models/structure.mps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/models/typesystem.mps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/org.iets3.core.attributes.mpl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/source_gen.caches/org/iets3/core/attributes/behavior/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/source_gen.caches/org/iets3/core/attributes/behavior/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/source_gen.caches/org/iets3/core/attributes/constraints/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/source_gen.caches/org/iets3/core/attributes/constraints/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/source_gen.caches/org/iets3/core/attributes/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/source_gen.caches/org/iets3/core/attributes/editor/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/source_gen.caches/org/iets3/core/attributes/editor/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/source_gen.caches/org/iets3/core/attributes/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/source_gen.caches/org/iets3/core/attributes/structure/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/source_gen.caches/org/iets3/core/attributes/structure/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/source_gen.caches/org/iets3/core/attributes/typesystem/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/source_gen.caches/org/iets3/core/attributes/typesystem/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/source_gen/org/iets3/core/attributes/Language.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/source_gen/org/iets3/core/attributes/behavior/AttributeValue_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/source_gen/org/iets3/core/attributes/behavior/AttributeValue__BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/source_gen/org/iets3/core/attributes/behavior/BehaviorAspectDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/source_gen/org/iets3/core/attributes/behavior/IAttribute_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/source_gen/org/iets3/core/attributes/behavior/IAttribute__BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/source_gen/org/iets3/core/attributes/behavior/IAttributed_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/source_gen/org/iets3/core/attributes/behavior/IAttributed__BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/source_gen/org/iets3/core/attributes/behavior/IComputedValueAttribute_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/source_gen/org/iets3/core/attributes/behavior/IComputedValueAttribute__BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/source_gen/org/iets3/core/attributes/behavior/IValueAttribute_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/source_gen/org/iets3/core/attributes/behavior/IValueAttribute__BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/source_gen/org/iets3/core/attributes/behavior/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/source_gen/org/iets3/core/attributes/constraints/ConstraintsAspectDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/source_gen/org/iets3/core/attributes/constraints/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/source_gen/org/iets3/core/attributes/editor/EditorAspectDescriptorImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/source_gen/org/iets3/core/attributes/editor/IComputedValueAttribute_Editor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/source_gen/org/iets3/core/attributes/editor/IValueAttribute_Editor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/source_gen/org/iets3/core/attributes/editor/attributes.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/source_gen/org/iets3/core/attributes/editor/summary.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/source_gen/org/iets3/core/attributes/editor/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/source_gen/org/iets3/core/attributes/structure/ConceptPresentationAspectImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/source_gen/org/iets3/core/attributes/structure/StructureAspectDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/source_gen/org/iets3/core/attributes/structure/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/source_gen/org/iets3/core/attributes/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/source_gen/org/iets3/core/attributes/typesystem/TypesystemDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/source_gen/org/iets3/core/attributes/typesystem/check_IComputedValueAttribute_NonTypesystemRule.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.attributes/source_gen/org/iets3/core/attributes/typesystem/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/Language.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/behavior/AbstractResultDescription.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/behavior/BehaviorAspectDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/behavior/ICanReadPersistentResult_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/behavior/ICanReadPersistentResult__BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/behavior/ICanRunCheckManually_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/behavior/ICanRunCheckManually__BehaviorDescriptor$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/behavior/ICanRunCheckManually__BehaviorDescriptor$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/behavior/ICanRunCheckManually__BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/behavior/ICanStoreCheckResult_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/behavior/ICanStoreCheckResult__BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/behavior/ICanStorePersistentResult_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/behavior/ICanStorePersistentResult__BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/behavior/IContainsStuffToRunManually_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/behavior/IContainsStuffToRunManually__BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/behavior/ICustomRemoteCreateSupport_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/behavior/ICustomRemoteCreateSupport__BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/behavior/IDetectNeedToRunManually_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/behavior/IDetectNeedToRunManually__BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/behavior/IETS3DummyIcon16_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/behavior/IETS3DummyIcon24_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/behavior/IETS3DummyIcon32_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/behavior/IOptionallyNamed_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/behavior/IOptionallyNamed__BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/behavior/IPersistentResult.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/behavior/IResult.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/behavior/ISpecRoot_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/behavior/IValidNamedConcept_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/behavior/OptionalNameSpecifier_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/behavior/OptionalNameSpecifier__BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/behavior/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/constraints/ConstraintsAspectDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/constraints/IOptionallyNamed_Constraints$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/constraints/IOptionallyNamed_Constraints.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/constraints/IValidNamedConcept_Constraints$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/constraints/IValidNamedConcept_Constraints.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/constraints/OptionalNameSpecifier_Constraints.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/constraints/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/editor/EditorAspectDescriptorImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/editor/IETS3Colors.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/editor/IETS3Styles_StyleSheet$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/editor/IETS3Styles_StyleSheet$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/editor/IETS3Styles_StyleSheet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/editor/OptionalNameSpecifier_Editor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/editor/UserStylesDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/editor/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/intentions/IntentionsDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/intentions/addExplicitName_Intention$IntentionImplementation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/intentions/addExplicitName_Intention.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/intentions/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/plugin/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/structure/ConceptPresentationAspectImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/structure/IconContainer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/structure/StructureAspectDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/structure/iets3-16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/structure/iets3-16@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/structure/iets3-24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/structure/iets3-24@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/structure/iets3-32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/structure/iets3-32@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/structure/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/typesystem/TypesystemDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/typesystem/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/classes_gen/org/iets3/core/base/typesystem/typeof_ICanRunCheckManually_InferenceRule.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/generator/classes_gen/org/iets3/core/base/generator/template/main/QueriesGenerated.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/generator/classes_gen/org/iets3/core/base/generator/template/main/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/generator/source_gen.caches/org/iets3/core/base/generator/template/main/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/generator/source_gen.caches/org/iets3/core/base/generator/template/main/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/generator/source_gen/org/iets3/core/base/generator/template/main/QueriesGenerated.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/generator/source_gen/org/iets3/core/base/generator/template/main/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/generator/template/main@generator.mps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/models/behavior.mps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/models/constraints.mps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/models/editor.mps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/models/intentions.mps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/models/plugin.mps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/models/structure.mps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/models/typesystem.mps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/org.iets3.core.base.mpl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen.caches/org/iets3/core/base/behavior/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen.caches/org/iets3/core/base/behavior/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen.caches/org/iets3/core/base/constraints/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen.caches/org/iets3/core/base/constraints/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen.caches/org/iets3/core/base/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen.caches/org/iets3/core/base/editor/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen.caches/org/iets3/core/base/editor/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen.caches/org/iets3/core/base/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen.caches/org/iets3/core/base/intentions/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen.caches/org/iets3/core/base/intentions/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen.caches/org/iets3/core/base/plugin/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen.caches/org/iets3/core/base/plugin/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen.caches/org/iets3/core/base/structure/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen.caches/org/iets3/core/base/structure/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen.caches/org/iets3/core/base/typesystem/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen.caches/org/iets3/core/base/typesystem/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/Language.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/behavior/AbstractResultDescription.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/behavior/BehaviorAspectDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/behavior/ICanReadPersistentResult_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/behavior/ICanReadPersistentResult__BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/behavior/ICanRunCheckManually_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/behavior/ICanRunCheckManually__BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/behavior/ICanStoreCheckResult_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/behavior/ICanStoreCheckResult__BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/behavior/ICanStorePersistentResult_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/behavior/ICanStorePersistentResult__BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/behavior/IContainsStuffToRunManually_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/behavior/IContainsStuffToRunManually__BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/behavior/ICustomRemoteCreateSupport_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/behavior/ICustomRemoteCreateSupport__BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/behavior/IDetectNeedToRunManually_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/behavior/IDetectNeedToRunManually__BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/behavior/IETS3DummyIcon16_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/behavior/IETS3DummyIcon24_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/behavior/IETS3DummyIcon32_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/behavior/IOptionallyNamed_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/behavior/IOptionallyNamed__BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/behavior/IPersistentResult.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/behavior/IResult.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/behavior/ISpecRoot_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/behavior/IValidNamedConcept_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/behavior/OptionalNameSpecifier_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/behavior/OptionalNameSpecifier__BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/behavior/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/constraints/ConstraintsAspectDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/constraints/IOptionallyNamed_Constraints.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/constraints/IValidNamedConcept_Constraints.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/constraints/OptionalNameSpecifier_Constraints.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/constraints/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/editor/EditorAspectDescriptorImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/editor/IETS3Colors.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/editor/IETS3Styles_StyleSheet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/editor/OptionalNameSpecifier_Editor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/editor/UserStylesDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/editor/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/intentions/IntentionsDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/intentions/addExplicitName_Intention.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/intentions/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/plugin/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/structure/ConceptPresentationAspectImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/structure/IconContainer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/structure/StructureAspectDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/structure/iets3-16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/structure/iets3-16@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/structure/iets3-24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/structure/iets3-24@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/structure/iets3-32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/structure/iets3-32@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/structure/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/typesystem/TypesystemDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/typesystem/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.base/source_gen/org/iets3/core/base/typesystem/typeof_ICanRunCheckManually_InferenceRule.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/classes_gen/org/iets3/core/plugin/plugin/IconContainer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/classes_gen/org/iets3/core/plugin/plugin/ManuallyTriggeredAnalysesGroup_ActionGroup.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/classes_gen/org/iets3/core/plugin/plugin/Plugin_ApplicationPlugin.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/classes_gen/org/iets3/core/plugin/plugin/ProjectViewDescriptor$1$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/classes_gen/org/iets3/core/plugin/plugin/ProjectViewDescriptor$1$1$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/classes_gen/org/iets3/core/plugin/plugin/ProjectViewDescriptor$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/classes_gen/org/iets3/core/plugin/plugin/ProjectViewDescriptor$1$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/classes_gen/org/iets3/core/plugin/plugin/ProjectViewDescriptor$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/classes_gen/org/iets3/core/plugin/plugin/ProjectViewDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/classes_gen/org/iets3/core/plugin/plugin/SpecExplorerHelper$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/classes_gen/org/iets3/core/plugin/plugin/SpecExplorerHelper$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/classes_gen/org/iets3/core/plugin/plugin/SpecExplorerHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/classes_gen/org/iets3/core/plugin/plugin/runAllManuallyOnModel_Action$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/classes_gen/org/iets3/core/plugin/plugin/runAllManuallyOnModel_Action$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/classes_gen/org/iets3/core/plugin/plugin/runAllManuallyOnModel_Action.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/classes_gen/org/iets3/core/plugin/plugin/runAllManuallyOnRoot_Action$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/classes_gen/org/iets3/core/plugin/plugin/runAllManuallyOnRoot_Action$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/classes_gen/org/iets3/core/plugin/plugin/runAllManuallyOnRoot_Action$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/classes_gen/org/iets3/core/plugin/plugin/runAllManuallyOnRoot_Action.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/classes_gen/org/iets3/core/plugin/plugin/runChecks.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/classes_gen/org/iets3/core/plugin/plugin/runEval_KeymapChanges.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/classes_gen/org/iets3/core/plugin/plugin/runManuallyModel_ActionGroup.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/classes_gen/org/iets3/core/plugin/plugin/runManuallyOnContainer_Action$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/classes_gen/org/iets3/core/plugin/plugin/runManuallyOnContainer_Action$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/classes_gen/org/iets3/core/plugin/plugin/runManuallyOnContainer_Action$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/classes_gen/org/iets3/core/plugin/plugin/runManuallyOnContainer_Action.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/classes_gen/org/iets3/core/plugin/plugin/runManuallyOnNode_Action$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/classes_gen/org/iets3/core/plugin/plugin/runManuallyOnNode_Action$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/classes_gen/org/iets3/core/plugin/plugin/runManuallyOnNode_Action.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/classes_gen/org/iets3/core/plugin/plugin/runManuallyRootMenu_ActionGroup.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/classes_gen/org/iets3/core/plugin/plugin/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/models/org/iets3/core/plugin/plugin.mps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/org.iets3.core.plugin.msd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/source_gen.caches/org/iets3/core/plugin/plugin/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/source_gen.caches/org/iets3/core/plugin/plugin/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/source_gen/org/iets3/core/plugin/plugin/IconContainer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/source_gen/org/iets3/core/plugin/plugin/ManuallyTriggeredAnalysesGroup_ActionGroup.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/source_gen/org/iets3/core/plugin/plugin/Plugin_ApplicationPlugin.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/source_gen/org/iets3/core/plugin/plugin/ProjectViewDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/source_gen/org/iets3/core/plugin/plugin/SpecExplorerHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/source_gen/org/iets3/core/plugin/plugin/runAllManuallyOnModel_Action.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/source_gen/org/iets3/core/plugin/plugin/runAllManuallyOnRoot_Action.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/source_gen/org/iets3/core/plugin/plugin/runChecks.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/source_gen/org/iets3/core/plugin/plugin/runEval_KeymapChanges.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/source_gen/org/iets3/core/plugin/plugin/runManuallyModel_ActionGroup.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/source_gen/org/iets3/core/plugin/plugin/runManuallyOnContainer_Action.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/source_gen/org/iets3/core/plugin/plugin/runManuallyOnNode_Action.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/source_gen/org/iets3/core/plugin/plugin/runManuallyRootMenu_ActionGroup.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.core.plugin/source_gen/org/iets3/core/plugin/plugin/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/classes_gen/org/iets3/flow/modelproperty/formulae/Language.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/classes_gen/org/iets3/flow/modelproperty/formulae/behavior/AndPropertyFormula_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/classes_gen/org/iets3/flow/modelproperty/formulae/behavior/AtomicProperty_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/classes_gen/org/iets3/flow/modelproperty/formulae/behavior/BehaviorAspectDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/classes_gen/org/iets3/flow/modelproperty/formulae/behavior/BinaryPropertyFormula_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/classes_gen/org/iets3/flow/modelproperty/formulae/behavior/ImplicationPropertyFormula_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/classes_gen/org/iets3/flow/modelproperty/formulae/behavior/NotPropertyFormula_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/classes_gen/org/iets3/flow/modelproperty/formulae/behavior/OrPropertyFormula_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/classes_gen/org/iets3/flow/modelproperty/formulae/behavior/PropertyFormula_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/classes_gen/org/iets3/flow/modelproperty/formulae/behavior/UnaryPropertyFormula_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/classes_gen/org/iets3/flow/modelproperty/formulae/behavior/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/classes_gen/org/iets3/flow/modelproperty/formulae/constraints/AtomicProperty_Constraints$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/classes_gen/org/iets3/flow/modelproperty/formulae/constraints/AtomicProperty_Constraints$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/classes_gen/org/iets3/flow/modelproperty/formulae/constraints/AtomicProperty_Constraints.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/classes_gen/org/iets3/flow/modelproperty/formulae/constraints/BinaryPropertyFormula_Constraints.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/classes_gen/org/iets3/flow/modelproperty/formulae/constraints/ConstraintsAspectDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/classes_gen/org/iets3/flow/modelproperty/formulae/constraints/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/classes_gen/org/iets3/flow/modelproperty/formulae/editor/AndPropertyFormula_Editor$arg1SingleRoleHandler_pghn3d_b0.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/classes_gen/org/iets3/flow/modelproperty/formulae/editor/AndPropertyFormula_Editor$arg2SingleRoleHandler_pghn3d_d0.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/classes_gen/org/iets3/flow/modelproperty/formulae/editor/AndPropertyFormula_Editor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/classes_gen/org/iets3/flow/modelproperty/formulae/editor/AtomicProperty_Editor$propertySingleRoleHandler_pardti_a0.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/classes_gen/org/iets3/flow/modelproperty/formulae/editor/AtomicProperty_Editor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/classes_gen/org/iets3/flow/modelproperty/formulae/editor/EditorAspectDescriptorImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/classes_gen/org/iets3/flow/modelproperty/formulae/editor/ImplicationPropertyFormula_Editor$arg1SingleRoleHandler_6lfk57_b0.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/classes_gen/org/iets3/flow/modelproperty/formulae/editor/ImplicationPropertyFormula_Editor$arg2SingleRoleHandler_6lfk57_d0.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/classes_gen/org/iets3/flow/modelproperty/formulae/editor/ImplicationPropertyFormula_Editor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/classes_gen/org/iets3/flow/modelproperty/formulae/editor/NotPropertyFormula_Editor$argSingleRoleHandler_1t8tnr_c0.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/classes_gen/org/iets3/flow/modelproperty/formulae/editor/NotPropertyFormula_Editor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/classes_gen/org/iets3/flow/modelproperty/formulae/editor/OrPropertyFormula_Editor$arg1SingleRoleHandler_ontl1r_b0.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/classes_gen/org/iets3/flow/modelproperty/formulae/editor/OrPropertyFormula_Editor$arg2SingleRoleHandler_ontl1r_d0.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/classes_gen/org/iets3/flow/modelproperty/formulae/editor/OrPropertyFormula_Editor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/classes_gen/org/iets3/flow/modelproperty/formulae/editor/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/classes_gen/org/iets3/flow/modelproperty/formulae/structure/ConceptPresentationAspectImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/classes_gen/org/iets3/flow/modelproperty/formulae/structure/StructureAspectDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/classes_gen/org/iets3/flow/modelproperty/formulae/structure/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/classes_gen/org/iets3/flow/modelproperty/formulae/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/classes_gen/org/iets3/flow/modelproperty/formulae/typesystem/TypesystemDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/classes_gen/org/iets3/flow/modelproperty/formulae/typesystem/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/models/org/iets3/flow/modelproperty/formulae/behavior.mps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/models/org/iets3/flow/modelproperty/formulae/constraints.mps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/models/org/iets3/flow/modelproperty/formulae/editor.mps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/models/org/iets3/flow/modelproperty/formulae/structure.mps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/models/org/iets3/flow/modelproperty/formulae/typesystem.mps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/org.iets3.flow.modelproperty.formulae.mpl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen.caches/org/iets3/flow/modelproperty/formulae/behavior/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen.caches/org/iets3/flow/modelproperty/formulae/behavior/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen.caches/org/iets3/flow/modelproperty/formulae/constraints/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen.caches/org/iets3/flow/modelproperty/formulae/constraints/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen.caches/org/iets3/flow/modelproperty/formulae/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen.caches/org/iets3/flow/modelproperty/formulae/editor/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen.caches/org/iets3/flow/modelproperty/formulae/editor/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen.caches/org/iets3/flow/modelproperty/formulae/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen.caches/org/iets3/flow/modelproperty/formulae/structure/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen.caches/org/iets3/flow/modelproperty/formulae/structure/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen.caches/org/iets3/flow/modelproperty/formulae/typesystem/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen.caches/org/iets3/flow/modelproperty/formulae/typesystem/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/flow/modelproperty/formulae/Language.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/flow/modelproperty/formulae/behavior/AndPropertyFormula_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/flow/modelproperty/formulae/behavior/AtomicProperty_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/flow/modelproperty/formulae/behavior/BehaviorAspectDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/flow/modelproperty/formulae/behavior/BinaryPropertyFormula_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/flow/modelproperty/formulae/behavior/ImplicationPropertyFormula_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/flow/modelproperty/formulae/behavior/NotPropertyFormula_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/flow/modelproperty/formulae/behavior/OrPropertyFormula_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/flow/modelproperty/formulae/behavior/PropertyFormula_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/flow/modelproperty/formulae/behavior/UnaryPropertyFormula_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/flow/modelproperty/formulae/behavior/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/flow/modelproperty/formulae/constraints/AtomicProperty_Constraints.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/flow/modelproperty/formulae/constraints/BinaryPropertyFormula_Constraints.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/flow/modelproperty/formulae/constraints/ConstraintsAspectDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/flow/modelproperty/formulae/constraints/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/flow/modelproperty/formulae/editor/AndPropertyFormula_Editor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/flow/modelproperty/formulae/editor/AtomicProperty_Editor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/flow/modelproperty/formulae/editor/EditorAspectDescriptorImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/flow/modelproperty/formulae/editor/ImplicationPropertyFormula_Editor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/flow/modelproperty/formulae/editor/NotPropertyFormula_Editor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/flow/modelproperty/formulae/editor/OrPropertyFormula_Editor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/flow/modelproperty/formulae/editor/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/flow/modelproperty/formulae/structure/ConceptPresentationAspectImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/flow/modelproperty/formulae/structure/StructureAspectDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/flow/modelproperty/formulae/structure/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/flow/modelproperty/formulae/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/flow/modelproperty/formulae/typesystem/TypesystemDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/org.iets3.flow.property.formulae/source_gen/org/iets3/flow/modelproperty/formulae/typesystem/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/Language.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/actions/ActionAspectDescriptorImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/actions/Populatefactory$NodeFactory_8062167295362760351$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/actions/Populatefactory$NodeFactory_8062167295362760351.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/actions/Populatefactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/actions/QueriesGenerated.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/actions/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/behavior/BehaviorAspectDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/behavior/DashboardHintDisplayer_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/behavior/DashboardHintDisplayer__BehaviorDescriptor$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/behavior/DashboardHintDisplayer__BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/behavior/FlowData_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/behavior/NodePointer_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/behavior/StatePointer_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/behavior/State_BehaviorDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/behavior/TableRenderer$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/behavior/TableRenderer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/behavior/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/constraints/ConstraintsAspectDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/constraints/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/Arrow.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/BoxColor_StyleSheet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/BoxVisulisation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/DashboardHintDisplayer_Editor$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/DashboardHintDisplayer_Editor$1$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/DashboardHintDisplayer_Editor$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/DashboardHintDisplayer_Editor$2$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/DashboardHintDisplayer_Editor$2$1$2$1$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/DashboardHintDisplayer_Editor$2$1$2$1$1$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/DashboardHintDisplayer_Editor$2$1$2$1$1$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/DashboardHintDisplayer_Editor$2$1$2$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/DashboardHintDisplayer_Editor$2$1$2$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/DashboardHintDisplayer_Editor$2$1$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/DashboardHintDisplayer_Editor$2$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/DashboardHintDisplayer_Editor$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/DashboardHintDisplayer_Editor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/DashboardHintDisplayer_TabularView_Editor$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/DashboardHintDisplayer_TabularView_Editor$1$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/DashboardHintDisplayer_TabularView_Editor$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/DashboardHintDisplayer_TabularView_Editor$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/DashboardHintDisplayer_TabularView_Editor$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/DashboardHintDisplayer_TabularView_Editor$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/DashboardHintDisplayer_TabularView_Editor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/DashboardHintDisplayer_Textual_Editor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/DashboardHintDisplayer_TransformationMenu$TransformationMenuPart_Group_avkpi1_a0$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/DashboardHintDisplayer_TransformationMenu$TransformationMenuPart_Group_avkpi1_a0$TransformationMenuPart_Action_avkpi1_a0a$Item$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/DashboardHintDisplayer_TransformationMenu$TransformationMenuPart_Group_avkpi1_a0$TransformationMenuPart_Action_avkpi1_a0a$Item.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/DashboardHintDisplayer_TransformationMenu$TransformationMenuPart_Group_avkpi1_a0$TransformationMenuPart_Action_avkpi1_a0a.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/DashboardHintDisplayer_TransformationMenu$TransformationMenuPart_Group_avkpi1_a0.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/DashboardHintDisplayer_TransformationMenu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/EditorAspectDescriptorImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/FlowData_Editor$stateListListHandler_m0sb0q_c0.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/FlowData_Editor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/StatePointer_Editor$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/StatePointer_Editor$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/StatePointer_Editor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/StatePointer_Textual_Editor$_Inline_kuj0ae_a1a.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/StatePointer_Textual_Editor$_Inline_kuj0ae_a3a.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/StatePointer_Textual_Editor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/State_DirectedGraph_Editor$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/State_DirectedGraph_Editor$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/State_DirectedGraph_Editor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/State_Editor$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/State_Editor$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/State_Editor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/State_Textual_Editor$formulaSingleRoleHandler_pc4u0j_h0.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/State_Textual_Editor$listOfPointerListHandler_pc4u0j_j0.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/State_Textual_Editor$nextStatesListHandler_pc4u0j_k0.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/State_Textual_Editor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/editor/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/intentions/IntentionsDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/intentions/calculate$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/intentions/calculate.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/intentions/generateTransformationMenu$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/intentions/generateTransformationMenu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/intentions/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/structure/ConceptPresentationAspectImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/structure/D.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/structure/F.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/structure/FlowStateMode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/structure/FlowStateMode_PropertySupport.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/structure/IconContainer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/structure/StructureAspectDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/structure/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/typesystem/TypesystemDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/classes_gen/org/iets3/flow/dashboard/typesystem/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/models/actions.mps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/models/org/iets3/flow/dashboard/behavior.mps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/models/org/iets3/flow/dashboard/constraints.mps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/models/org/iets3/flow/dashboard/editor.mps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/models/org/iets3/flow/dashboard/intentions.mps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/models/org/iets3/flow/dashboard/structure.mps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/models/org/iets3/flow/dashboard/typesystem.mps" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/org.iets3.flow.dashboard.mpl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen.caches/org/iets3/flow/dashboard/actions/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen.caches/org/iets3/flow/dashboard/actions/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen.caches/org/iets3/flow/dashboard/behavior/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen.caches/org/iets3/flow/dashboard/behavior/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen.caches/org/iets3/flow/dashboard/constraints/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen.caches/org/iets3/flow/dashboard/constraints/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen.caches/org/iets3/flow/dashboard/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen.caches/org/iets3/flow/dashboard/editor/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen.caches/org/iets3/flow/dashboard/editor/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen.caches/org/iets3/flow/dashboard/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen.caches/org/iets3/flow/dashboard/intentions/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen.caches/org/iets3/flow/dashboard/intentions/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen.caches/org/iets3/flow/dashboard/structure/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen.caches/org/iets3/flow/dashboard/structure/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen.caches/org/iets3/flow/dashboard/typesystem/dependencies" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen.caches/org/iets3/flow/dashboard/typesystem/generated" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/Language.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/actions/ActionAspectDescriptorImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/actions/Populatefactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/actions/QueriesGenerated.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/actions/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/behavior/BehaviorAspectDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/behavior/DashboardHintDisplayer_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/behavior/DashboardHintDisplayer__BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/behavior/DashboardUtility.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/behavior/FlowData_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/behavior/NodePointer_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/behavior/StatePointer_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/behavior/State_BehaviorDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/behavior/TableRenderer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/behavior/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/constraints/ConstraintsAspectDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/constraints/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/editor/Arrow.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/editor/BoxColor_StyleSheet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/editor/BoxVisulisation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/editor/DashboardHintDisplayer_Editor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/editor/DashboardHintDisplayer_TabularView_Editor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/editor/DashboardHintDisplayer_Textual_Editor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/editor/DashboardHintDisplayer_TransformationMenu.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/editor/EditorAspectDescriptorImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/editor/FlowData_Editor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/editor/StatePointer_Editor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/editor/StatePointer_Textual_Editor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/editor/State_DirectedGraph_Editor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/editor/State_Editor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/editor/State_Textual_Editor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/editor/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/intentions/IntentionsDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/intentions/calculate.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/intentions/generateTransformationMenu.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/intentions/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/structure/ConceptPresentationAspectImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/structure/D.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/structure/F.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/structure/FlowStateMode.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/structure/FlowStateMode_PropertySupport.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/structure/IconContainer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/structure/StructureAspectDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/structure/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/trace.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/typesystem/TypesystemDescriptor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/languages/testLanguage/source_gen/org/iets3/flow/dashboard/typesystem/trace.info" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/modules.xml" afterPath="$PROJECT_DIR$/.mps/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/workspace.xml" afterPath="$PROJECT_DIR$/.mps/workspace.xml" />
     </list>
     <ignored path="org.iets3.opensource.iws" />
@@ -591,7 +32,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="de73b16c-05f9-4661-9041-e1bd4026ee4f/r:df153e5b-fd13-42a3-9fb2-78361a72923c(TempModulede73b16c-05f9-4661-9041-e1bd4026ee4f/TempModel_104692035551702)">
+            <model ref="7db48b5d-cc92-44e3-9d26-c57a2ecd5b18/r:ba0e2ab1-c983-4537-be36-66f58530b061(TempModule7db48b5d-cc92-44e3-9d26-c57a2ecd5b18/TempModel_104997886682384)">
               <persistence version="9" />
               <languages>
                 <use id="de1ad86d-6e50-4a02-b306-d4d17f64c375" name="jetbrains.mps.console.base" version="0" />
@@ -621,9 +62,9 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="4tuqWbyzJsA">
-                <node concept="3balQm" id="4tuqWbyzJsB" role="aymYE" />
-                <node concept="2Clz$F" id="4tuqWbyzJsC" role="aymYO">
+              <node concept="aymSD" id="6JmICACkHwJ">
+                <node concept="3balQm" id="6JmICACkHwK" role="aymYE" />
+                <node concept="2Clz$F" id="6JmICACkHwL" role="aymYO">
                   <property role="TrG5h" value="CommandHolder" />
                 </node>
               </node>
@@ -1280,7 +721,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Favorites" />
       <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
         <subPane />
       </pane>
@@ -1291,14 +731,14 @@
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gxw" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gxw" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -1314,6 +754,7 @@
           </SELECTED>
         </subPane>
       </pane>
+      <pane id="Favorites" />
       <pane id="FileSystem" />
       <pane id="CustomProjectView_org.iets3.core.plugin.plugin.SpecExplorer">
         <subPane />
@@ -1327,22 +768,6 @@
     <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <MyState>
-        <option name="mySettings">
-          <RemoteConnectionSettings>
-            <option name="hostName" value="localhost" />
-            <option name="port" value="5005" />
-            <option name="sharedMemoryAddress" value="" />
-            <option name="suspend" value="false" />
-            <option name="useSockets" value="true" />
-          </RemoteConnectionSettings>
-        </option>
-      </MyState>
-      <method />
-    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -1359,7 +784,7 @@
       <window_info id="Diagram Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.61991435" sideWeight="0.7935484" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Migration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4113475" sideWeight="0.3027523" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41018388" sideWeight="0.30930537" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Spin Verification Result" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Generation Tracer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1370,25 +795,23 @@
       <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Tree" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.58605975" sideWeight="0.67241377" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.48387095" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.48387095" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Chart" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4113475" sideWeight="0.6972477" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41018388" sideWeight="0.69069463" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24723756" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Context Actions" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CBMC Lifted Results" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Spin Lifted Results" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38948497" sideWeight="0.60469484" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="mbeddr TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38368335" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2819063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="CBMC Raw Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Visualisation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1404,6 +827,8 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Context Actions 2" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38948497" sideWeight="0.60469484" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -2022,30 +1447,7 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/git/EARS-CTRL/code/languages/org.iets3.opensource/languages/testLanguage/source_gen/org/iets3/flow/dashboard/behavior/DashboardUtility.java" />
-    <entry file="mps://node://org.iets3.utility/org.iets3.utility.behavior/LanguageUtility">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints>
-              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
-              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
-            </enabledHints>
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
+    <entry file="mps://node://org.iets3.utility/org.iets3.utility.behavior/LanguageUtility" />
     <entry file="mps://node://org.iets3.ears.gxw/org.iets3.ears.gxw.structure/RequirementChunk">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
@@ -2437,7 +1839,7 @@
             </foldable>
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:43bee08d-0dd5-42fe-afb1-87610e62da05(org.iets3.ears.gxw.examples.MotorOperation)/6476888385500461188" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:f2229e5c-9085-48de-b0b8-2b935c9f9c0f(org.iets3.ears.gxw.examples.SlidingDoors)/6476888385500576150" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -2493,7 +1895,7 @@
             </foldable>
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:43bee08d-0dd5-42fe-afb1-87610e62da05(org.iets3.ears.gxw.examples.MotorOperation)/6476888385500461188" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:f2229e5c-9085-48de-b0b8-2b935c9f9c0f(org.iets3.ears.gxw.examples.SlidingDoors)/6476888385500576150" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -2836,17 +2238,7 @@
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
           <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="152" />
-                <property name="caretXRelative" value="4" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:e31313d9-8b17-41ac-8aba-3e6c8e20de62(org.iets3.ears.gxw.examples.QuizController)/6476888385500461397" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
+            <selectionStack />
             <errorMarkers />
             <transactionalProperties />
             <foldable>
@@ -3083,23 +2475,13 @@
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
           <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="470" />
-                <property name="caretXRelative" value="7" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_jnjlli_i0" cellNumber="0" isInList="false">
-                  <node node_reference="r:43bee08d-0dd5-42fe-afb1-87610e62da05(org.iets3.ears.gxw.examples.MotorOperation)/6476888385500461188" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
+            <selectionStack />
             <errorMarkers />
             <transactionalProperties />
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:aee47044-0d01-4a82-830b-f82a805c1acc(org.iets3.ears.gxw.examples.myexample)/5142666309272532710" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:f2229e5c-9085-48de-b0b8-2b935c9f9c0f(org.iets3.ears.gxw.examples.SlidingDoors)/6476888385500576150" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
