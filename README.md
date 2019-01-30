@@ -15,7 +15,7 @@ Take a look [here](https://youtu.be/IOyFRd6mbd0) for a video demoing the whole t
 
     `git clone https://github.com/levilucio/EARS-CTRL.git`
 
-3. Start mbeddr (making sure that MATLABPATH system variable is accessible)
+3. Start mbeddr
 
 4. Open the _org.iets3.opensource_ project at:
 
