@@ -2,7 +2,7 @@
 
 EARS-CTRL allows going from software requirements expressed in EARS (Easy Approach to Requirements Syntax) to software controllers that can be simulated  - all from the same MPS-based interactive development environment.
 
-Note that this version of EARS-CTRL is restricted to the contruction of requirements and does not allow the generation of simulink models for the requirements. For the full version please refer to the [EARS-CTRL repository](https://github.com/levilucio/EARS-CTRL).
+Note that this version of EARS-CTRL is restricted to the construction of requirements and does not allow the generation of simulink models for the requirements. For the full version please refer to the [EARS-CTRL repository](https://github.com/levilucio/EARS-CTRL).
 
 Take a look [here](https://youtu.be/IOyFRd6mbd0) for a video demoing the whole tool.
 
