@@ -9,7 +9,7 @@ Take a look [here](https://youtu.be/IOyFRd6mbd0) for a video demoing the whole t
 
 ## Install instructions
 
-1. Install [mbeddr for MPS 3.4.3](https://github.com/mbeddr/mbeddr.core/releases/tag/nightly-510-MPS-3.4.3)
+1. Install [mbeddr for MPS 3.4.3](https://github.com/mbeddr/mbeddr.core/releases/tag/nightly-510-MPS-3.4.3) for your platform.
 
 2. Clone this repository locally:
 
@@ -19,6 +19,6 @@ Take a look [here](https://youtu.be/IOyFRd6mbd0) for a video demoing the whole t
 
     `your_repo_root/code/languages`
 
-8. Compile the gxw language, if necessary
+8. Compile the gxw language, if necessary.
 
 9. Enjoy EARS-CTRL!
