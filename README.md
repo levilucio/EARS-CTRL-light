@@ -25,8 +25,8 @@ You will get a dialog asking if you want to migrate the project. Select 'Postpon
 
 <img src="https://raw.githubusercontent.com/levilucio/EARS-CTRL-light/master/images/migrate.png" width="600">
 
-8. Compile the gxw language, if necessary.
+5. Compile the gxw language, if necessary.
 
 <img src="https://raw.githubusercontent.com/levilucio/EARS-CTRL-light/master/images/rebuild_languages.png" width="350">
 
-9. Enjoy EARS-CTRL!
+6. Enjoy EARS-CTRL!
