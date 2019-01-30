@@ -15,10 +15,18 @@ Take a look [here](https://youtu.be/IOyFRd6mbd0) for a video demoing the whole t
 
     `git clone https://github.com/levilucio/EARS-CTRL.git`
 
-3. Start mbeddr (making sure that MATLABPATH system variable is accessible) and open the _org.iets3.opensource_ project at:
+3. Start mbeddr (making sure that MATLABPATH system variable is accessible)
+
+4. Open the _org.iets3.opensource_ project at:
 
     `your_repo_root/code/languages`
+    
+You will get a dialog asking if you want to migrate the project. Select 'Postpone':
+
+<img src="https://raw.githubusercontent.com/levilucio/EARS-CTRL-light/master/images/migrate.png" width="600">
 
 8. Compile the gxw language, if necessary.
+
+<img src="https://raw.githubusercontent.com/levilucio/EARS-CTRL-light/master/images/rebuild_languages.png" width="350">
 
 9. Enjoy EARS-CTRL!
